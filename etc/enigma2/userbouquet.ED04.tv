@@ -1,7 +1,7 @@
 #NAME Austria
-#SERVICE 1:64:21:0:0:0:0:0:0:0::???< German - Austria >???
+#SERVICE 1:64:13:0:0:0:0:0:0:0::???< German - Austria >???
 #DESCRIPTION ???< German - Austria >???
-#SERVICE 1:64:22:0:0:0:0:0:0:0::—— Top ——
+#SERVICE 1:64:14:0:0:0:0:0:0:0::—— Top ——
 #DESCRIPTION —— Top ——
 #SERVICE 1:0:1:32C9:45D:1:C00000:0:0:0:
 #SERVICE 1:0:1:32CA:45D:1:C00000:0:0:0:
@@ -40,7 +40,7 @@
 #SERVICE 1:0:1:33A7:3EB:1:C00000:0:0:0:
 #SERVICE 1:0:1:33A9:3EB:1:C00000:0:0:0:
 #SERVICE 1:0:1:33AA:3EB:1:C00000:0:0:0:
-#SERVICE 1:64:23:0:0:0:0:0:0:0::—— Regional ——
+#SERVICE 1:64:15:0:0:0:0:0:0:0::—— Regional ——
 #DESCRIPTION —— Regional ——
 #SERVICE 1:0:1:3337:45B:1:C00000:0:0:0:
 #SERVICE 1:0:1:277D:444:1:C00000:0:0:0:
