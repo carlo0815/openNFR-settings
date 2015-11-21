@@ -1,9 +1,9 @@
 #NAME Radio
-#SERVICE 1:64:1B:0:0:0:0:0:0:0::???< Radio >???
+#SERVICE 1:64:1A:0:0:0:0:0:0:0::???< Radio >???
 #DESCRIPTION ???< Radio >???
-#SERVICE 1:64:1C:0:0:0:0:0:0:0::????? Astra (19.2) ?????
+#SERVICE 1:64:1B:0:0:0:0:0:0:0::????? Astra (19.2) ?????
 #DESCRIPTION ????? Astra (19.2) ?????
-#SERVICE 1:64:1D:0:0:0:0:0:0:0::————  ARD BR  ————
+#SERVICE 1:64:1C:0:0:0:0:0:0:0::————  ARD BR  ————
 #DESCRIPTION ————  ARD BR  ————
 #SERVICE 1:0:2:6EF4:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6EF8:445:1:C00000:0:0:0:
@@ -13,12 +13,12 @@
 #SERVICE 1:0:2:6EF3:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6EF7:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6EF6:445:1:C00000:0:0:0:
-#SERVICE 1:64:1E:0:0:0:0:0:0:0::————  ARD Digital  ————
+#SERVICE 1:64:1D:0:0:0:0:0:0:0::————  ARD Digital  ————
 #DESCRIPTION ————  ARD Digital  ————
 #SERVICE 1:0:2:6EED:4B1:1:C00000:0:0:0:
-#SERVICE 1:64:1F:0:0:0:0:0:0:0::————  ARD DW  ————
+#SERVICE 1:64:1E:0:0:0:0:0:0:0::————  ARD DW  ————
 #DESCRIPTION ————  ARD DW  ————
-#SERVICE 1:64:20:0:0:0:0:0:0:0::————  ARD HR  ————
+#SERVICE 1:64:1F:0:0:0:0:0:0:0::————  ARD HR  ————
 #DESCRIPTION ————  ARD HR  ————
 #SERVICE 1:0:2:6F08:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F03:445:1:C00000:0:0:0:
@@ -26,7 +26,7 @@
 #SERVICE 1:0:2:6F05:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F06:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F07:445:1:C00000:0:0:0:
-#SERVICE 1:64:21:0:0:0:0:0:0:0::————  ARD MDR  ————
+#SERVICE 1:64:20:0:0:0:0:0:0:0::————  ARD MDR  ————
 #DESCRIPTION ————  ARD MDR  ————
 #SERVICE 1:0:2:6F10:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F0F:445:1:C00000:0:0:0:
@@ -36,7 +36,7 @@
 #SERVICE 1:0:2:6F0D:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F0C:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F0E:445:1:C00000:0:0:0:
-#SERVICE 1:64:22:0:0:0:0:0:0:0::————  ARD NDR  ————
+#SERVICE 1:64:21:0:0:0:0:0:0:0::————  ARD NDR  ————
 #DESCRIPTION ————  ARD NDR  ————
 #SERVICE 1:0:2:6F18:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F1C:445:1:C00000:0:0:0:
@@ -47,7 +47,7 @@
 #SERVICE 1:0:2:6F17:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F16:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F1A:445:1:C00000:0:0:0:
-#SERVICE 1:64:23:0:0:0:0:0:0:0::————  ARD rbb  ————
+#SERVICE 1:64:22:0:0:0:0:0:0:0::————  ARD rbb  ————
 #DESCRIPTION ————  ARD rbb  ————
 #SERVICE 1:0:2:6F26:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F29:445:1:C00000:0:0:0:
@@ -55,17 +55,17 @@
 #SERVICE 1:0:2:6F25:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F27:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F28:445:1:C00000:0:0:0:
-#SERVICE 1:64:24:0:0:0:0:0:0:0::————  ARD RB  ————
+#SERVICE 1:64:23:0:0:0:0:0:0:0::————  ARD RB  ————
 #DESCRIPTION ————  ARD RB  ————
 #SERVICE 1:0:2:6F20:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F22:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F21:445:1:C00000:0:0:0:
-#SERVICE 1:64:25:0:0:0:0:0:0:0::————  ARD SR  ————
+#SERVICE 1:64:24:0:0:0:0:0:0:0::————  ARD SR  ————
 #DESCRIPTION ————  ARD SR  ————
 #SERVICE 1:0:2:6F2D:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F2E:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F2F:445:1:C00000:0:0:0:
-#SERVICE 1:64:26:0:0:0:0:0:0:0::————  ARD SWR  ————
+#SERVICE 1:64:25:0:0:0:0:0:0:0::————  ARD SWR  ————
 #DESCRIPTION ————  ARD SWR  ————
 #SERVICE 1:0:2:6F37:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F31:445:1:C00000:0:0:0:
@@ -75,7 +75,7 @@
 #SERVICE 1:0:2:6F35:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F36:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F38:445:1:C00000:0:0:0:
-#SERVICE 1:64:27:0:0:0:0:0:0:0::————  ARD WDR  ————
+#SERVICE 1:64:26:0:0:0:0:0:0:0::————  ARD WDR  ————
 #DESCRIPTION ————  ARD WDR  ————
 #SERVICE 1:0:2:6F41:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F3B:445:1:C00000:0:0:0:
@@ -86,7 +86,7 @@
 #SERVICE 1:0:2:6F3F:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F43:445:1:C00000:0:0:0:
 #SERVICE 1:0:2:6F40:445:1:C00000:0:0:0:
-#SERVICE 1:64:28:0:0:0:0:0:0:0::————  BetaDigital  ————
+#SERVICE 1:64:27:0:0:0:0:0:0:0::————  BetaDigital  ————
 #DESCRIPTION ————  BetaDigital  ————
 #SERVICE 1:0:2:B0:7:85:C00000:0:0:0:
 #SERVICE 1:0:2:AA:7:85:C00000:0:0:0:
@@ -101,7 +101,7 @@
 #SERVICE 1:0:2:A0:7:85:C00000:0:0:0:
 #SERVICE 1:0:2:A9:7:85:C00000:0:0:0:
 #SERVICE 1:0:2:279E:444:1:C00000:0:0:0:
-#SERVICE 1:64:29:0:0:0:0:0:0:0::————  Sky Deutschland  ————
+#SERVICE 1:64:28:0:0:0:0:0:0:0::————  Sky Deutschland  ————
 #DESCRIPTION ————  Sky Deutschland  ————
 #SERVICE 1:0:2:96:11:85:C00000:0:0:0:
 #SERVICE 1:0:2:97:11:85:C00000:0:0:0:
@@ -110,9 +110,9 @@
 #SERVICE 1:0:2:9A:11:85:C00000:0:0:0:
 #SERVICE 1:0:2:9B:11:85:C00000:0:0:0:
 #SERVICE 1:0:2:9C:11:85:C00000:0:0:0:
-#SERVICE 1:64:2A:0:0:0:0:0:0:0::————  Canadian Forces Europe  ————
+#SERVICE 1:64:29:0:0:0:0:0:0:0::————  Canadian Forces Europe  ————
 #DESCRIPTION ————  Canadian Forces Europe  ————
-#SERVICE 1:64:2B:0:0:0:0:0:0:0::————  Canal Digitaal  ————
+#SERVICE 1:64:2A:0:0:0:0:0:0:0::————  Canal Digitaal  ————
 #DESCRIPTION ————  Canal Digitaal  ————
 #SERVICE 1:0:2:13CF:455:35:C00000:0:0:0:
 #SERVICE 1:0:2:13BA:455:35:C00000:0:0:0:
@@ -132,21 +132,21 @@
 #SERVICE 1:0:2:803:449:35:C00000:0:0:0:
 #SERVICE 1:0:2:816:449:35:C00000:0:0:0:
 #SERVICE 1:0:2:13CE:455:35:C00000:0:0:0:
-#SERVICE 1:64:2C:0:0:0:0:0:0:0::————  CanalSat  ————
+#SERVICE 1:64:2B:0:0:0:0:0:0:0::————  CanalSat  ————
 #DESCRIPTION ————  CanalSat  ————
-#SERVICE 1:64:2D:0:0:0:0:0:0:0::————  CNN  ————
+#SERVICE 1:64:2C:0:0:0:0:0:0:0::————  CNN  ————
 #DESCRIPTION ————  CNN  ————
-#SERVICE 1:64:2E:0:0:0:0:0:0:0::————  Digital+ (Astra)  ————
+#SERVICE 1:64:2D:0:0:0:0:0:0:0::————  Digital+ (Astra)  ————
 #DESCRIPTION ————  Digital+ (Astra)  ————
 #SERVICE 1:0:2:7598:422:1:C00000:0:0:0:
-#SERVICE 1:64:2F:0:0:0:0:0:0:0::————  Eurociel  ————
+#SERVICE 1:64:2E:0:0:0:0:0:0:0::————  Eurociel  ————
 #DESCRIPTION ————  Eurociel  ————
 #SERVICE 1:0:2:1C79:457:1:C00000:0:0:0:
-#SERVICE 1:64:30:0:0:0:0:0:0:0::————  GlobeCast  ————
+#SERVICE 1:64:2F:0:0:0:0:0:0:0::————  GlobeCast  ————
 #DESCRIPTION ————  GlobeCast  ————
-#SERVICE 1:64:31:0:0:0:0:0:0:0::————  IMEDIA  ————
+#SERVICE 1:64:30:0:0:0:0:0:0:0::————  IMEDIA  ————
 #DESCRIPTION ————  IMEDIA  ————
-#SERVICE 1:64:32:0:0:0:0:0:0:0::————  MEDIA BROADCAST  ————
+#SERVICE 1:64:31:0:0:0:0:0:0:0::————  MEDIA BROADCAST  ————
 #DESCRIPTION ————  MEDIA BROADCAST  ————
 #SERVICE 1:0:2:316E:459:1:C00000:0:0:0:
 #SERVICE 1:0:2:3176:459:1:C00000:0:0:0:
@@ -158,14 +158,14 @@
 #SERVICE 1:0:2:3177:459:1:C00000:0:0:0:
 #SERVICE 1:0:2:316D:459:1:C00000:0:0:0:
 #SERVICE 1:0:2:3170:459:1:C00000:0:0:0:
-#SERVICE 1:64:33:0:0:0:0:0:0:0::————  ORF Digital  ————
+#SERVICE 1:64:32:0:0:0:0:0:0:0::————  ORF Digital  ————
 #DESCRIPTION ————  ORF Digital  ————
-#SERVICE 1:64:34:0:0:0:0:0:0:0::————  Radio Maria Osterreich  ————
+#SERVICE 1:64:33:0:0:0:0:0:0:0::————  Radio Maria Osterreich  ————
 #DESCRIPTION ————  Radio Maria Osterreich  ————
-#SERVICE 1:64:35:0:0:0:0:0:0:0::————  RADIO Neue Hoffnung  ————
+#SERVICE 1:64:34:0:0:0:0:0:0:0::————  RADIO Neue Hoffnung  ————
 #DESCRIPTION ————  RADIO Neue Hoffnung  ————
 #SERVICE 1:0:2:1C7C:457:1:C00000:0:0:0:
-#SERVICE 1:64:36:0:0:0:0:0:0:0::————  TVP  ————
+#SERVICE 1:64:35:0:0:0:0:0:0:0::————  TVP  ————
 #DESCRIPTION ————  TVP  ————
 #SERVICE 1:0:2:1C21:423:1:C00000:0:0:0:
 #SERVICE 1:0:2:1C22:423:1:C00000:0:0:0:
@@ -173,22 +173,22 @@
 #SERVICE 1:0:2:1C24:423:1:C00000:0:0:0:
 #SERVICE 1:0:2:1C25:423:1:C00000:0:0:0:
 #SERVICE 1:0:2:1C26:423:1:C00000:0:0:0:
-#SERVICE 1:64:37:0:0:0:0:0:0:0::————  ZDF Vision  ————
+#SERVICE 1:64:36:0:0:0:0:0:0:0::————  ZDF Vision  ————
 #DESCRIPTION ————  ZDF Vision  ————
 #SERVICE 1:0:2:6D6C:437:1:C00000:0:0:0:
 #SERVICE 1:0:2:6D6D:437:1:C00000:0:0:0:
 #SERVICE 1:0:2:6D71:437:1:C00000:0:0:0:
-#SERVICE 1:64:38:0:0:0:0:0:0:0::————  UPC Direct  ————
+#SERVICE 1:64:37:0:0:0:0:0:0:0::————  UPC Direct  ————
 #DESCRIPTION ————  UPC Direct  ————
 #SERVICE 1:0:2:4FE2:407:1:C00000:0:0:0:
 #SERVICE 1:0:2:4FE4:407:1:C00000:0:0:0:
 #SERVICE 1:0:2:4FE3:407:1:C00000:0:0:0:
-#SERVICE 1:64:39:0:0:0:0:0:0:0::————  TV Vlaanderen  ————
+#SERVICE 1:64:38:0:0:0:0:0:0:0::————  TV Vlaanderen  ————
 #DESCRIPTION ————  TV Vlaanderen  ————
 #SERVICE 1:0:2:31F3:45F:35:C00000:0:0:0:
 #SERVICE 1:0:2:31F2:45F:35:C00000:0:0:0:
 #SERVICE 1:0:2:31F5:45F:35:C00000:0:0:0:
-#SERVICE 1:64:3A:0:0:0:0:0:0:0::————  Canal Digitaal  ————
+#SERVICE 1:64:39:0:0:0:0:0:0:0::————  Canal Digitaal  ————
 #DESCRIPTION ————  Canal Digitaal  ————
 #SERVICE 1:0:2:821:449:35:C00000:0:0:0:
 #SERVICE 1:0:2:FC8:451:35:C00000:0:0:0:
@@ -204,159 +204,159 @@
 #SERVICE 1:0:2:822:449:35:C00000:0:0:0:
 #SERVICE 1:0:2:31ED:45F:35:C00000:0:0:0:
 #SERVICE 1:0:2:827:449:35:C00000:0:0:0:
-#SERVICE 1:64:3B:0:0:0:0:0:0:0::————  Canal Digitaal  ————
+#SERVICE 1:64:3A:0:0:0:0:0:0:0::————  Canal Digitaal  ————
 #DESCRIPTION ————  Canal Digitaal  ————
 #SERVICE 1:0:2:13A9:455:35:C00000:0:0:0:
 #SERVICE 1:0:2:13A8:455:35:C00000:0:0:0:
 #SERVICE 1:0:2:13AA:455:35:C00000:0:0:0:
 #SERVICE 1:0:2:FCD:451:35:C00000:0:0:0:
-#SERVICE 1:64:3C:0:0:0:0:0:0:0::????? Hotbird 6 (13.0) ?????
+#SERVICE 1:64:3B:0:0:0:0:0:0:0::????? Hotbird 6 (13.0) ?????
 #DESCRIPTION ????? Hotbird 6 (13.0) ?????
-#SERVICE 1:64:3D:0:0:0:0:0:0:0::————  AH-EDP  ————
+#SERVICE 1:64:3C:0:0:0:0:0:0:0::————  AH-EDP  ————
 #DESCRIPTION ————  AH-EDP  ————
-#SERVICE 1:64:3E:0:0:0:0:0:0:0::————  Overon  ————
+#SERVICE 1:64:3D:0:0:0:0:0:0:0::————  Overon  ————
 #DESCRIPTION ————  Overon  ————
-#SERVICE 1:64:3F:0:0:0:0:0:0:0::————  ARABSAT  ————
+#SERVICE 1:64:3E:0:0:0:0:0:0:0::————  ARABSAT  ————
 #DESCRIPTION ————  ARABSAT  ————
-#SERVICE 1:64:40:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:3F:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:41:0:0:0:0:0:0:0::————  BBC World Service  ————
+#SERVICE 1:64:40:0:0:0:0:0:0:0::————  BBC World Service  ————
 #DESCRIPTION ————  BBC World Service  ————
-#SERVICE 1:64:42:0:0:0:0:0:0:0::————  BSS_LDK  ————
+#SERVICE 1:64:41:0:0:0:0:0:0:0::————  BSS_LDK  ————
 #DESCRIPTION ————  BSS_LDK  ————
-#SERVICE 1:64:43:0:0:0:0:0:0:0::————  BSS  ————
+#SERVICE 1:64:42:0:0:0:0:0:0:0::————  BSS  ————
 #DESCRIPTION ————  BSS  ————
-#SERVICE 1:64:44:0:0:0:0:0:0:0::————  BT Broadcast Services  ————
+#SERVICE 1:64:43:0:0:0:0:0:0:0::————  BT Broadcast Services  ————
 #DESCRIPTION ————  BT Broadcast Services  ————
-#SERVICE 1:64:45:0:0:0:0:0:0:0::————  BT  ————
+#SERVICE 1:64:44:0:0:0:0:0:0:0::————  BT  ————
 #DESCRIPTION ————  BT  ————
-#SERVICE 1:64:46:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:45:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:47:0:0:0:0:0:0:0::————  Cyfra +  ————
+#SERVICE 1:64:46:0:0:0:0:0:0:0::————  Cyfra +  ————
 #DESCRIPTION ————  Cyfra +  ————
-#SERVICE 1:64:48:0:0:0:0:0:0:0::————  Cyfrowy Polsat  ————
+#SERVICE 1:64:47:0:0:0:0:0:0:0::————  Cyfrowy Polsat  ————
 #DESCRIPTION ————  Cyfrowy Polsat  ————
-#SERVICE 1:64:49:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:48:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:4A:0:0:0:0:0:0:0::————  Deutsche Welle  ————
+#SERVICE 1:64:49:0:0:0:0:0:0:0::————  Deutsche Welle  ————
 #DESCRIPTION ————  Deutsche Welle  ————
-#SERVICE 1:64:4B:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:4A:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:4C:0:0:0:0:0:0:0::————  ERTU  ————
+#SERVICE 1:64:4B:0:0:0:0:0:0:0::————  ERTU  ————
 #DESCRIPTION ————  ERTU  ————
-#SERVICE 1:64:4D:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:4C:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:4E:0:0:0:0:0:0:0::————  Eutelsat  ————
+#SERVICE 1:64:4D:0:0:0:0:0:0:0::————  Eutelsat  ————
 #DESCRIPTION ————  Eutelsat  ————
-#SERVICE 1:64:4F:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:4E:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:50:0:0:0:0:0:0:0::————  GCF  ————
+#SERVICE 1:64:4F:0:0:0:0:0:0:0::————  GCF  ————
 #DESCRIPTION ————  GCF  ————
-#SERVICE 1:64:51:0:0:0:0:0:0:0::————  Globecast NE  ————
+#SERVICE 1:64:50:0:0:0:0:0:0:0::————  Globecast NE  ————
 #DESCRIPTION ————  Globecast NE  ————
-#SERVICE 1:64:52:0:0:0:0:0:0:0::————  Globecast UK  ————
+#SERVICE 1:64:51:0:0:0:0:0:0:0::————  Globecast UK  ————
 #DESCRIPTION ————  Globecast UK  ————
-#SERVICE 1:64:53:0:0:0:0:0:0:0::————  GlobeCast_Italia  ————
+#SERVICE 1:64:52:0:0:0:0:0:0:0::————  GlobeCast_Italia  ————
 #DESCRIPTION ————  GlobeCast_Italia  ————
-#SERVICE 1:64:54:0:0:0:0:0:0:0::————  GLOBECAST  ————
+#SERVICE 1:64:53:0:0:0:0:0:0:0::————  GLOBECAST  ————
 #DESCRIPTION ————  GLOBECAST  ————
-#SERVICE 1:64:55:0:0:0:0:0:0:0::————  Harmonic  ————
+#SERVICE 1:64:54:0:0:0:0:0:0:0::————  Harmonic  ————
 #DESCRIPTION ————  Harmonic  ————
-#SERVICE 1:64:56:0:0:0:0:0:0:0::————  H  ————
+#SERVICE 1:64:55:0:0:0:0:0:0:0::————  H  ————
 #DESCRIPTION ————  H  ————
-#SERVICE 1:64:57:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:56:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:58:0:0:0:0:0:0:0::————  IRIB  ————
+#SERVICE 1:64:57:0:0:0:0:0:0:0::————  IRIB  ————
 #DESCRIPTION ————  IRIB  ————
-#SERVICE 1:64:59:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:58:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:5A:0:0:0:0:0:0:0::————  M-Three  satcom  ————
+#SERVICE 1:64:59:0:0:0:0:0:0:0::————  M-Three  satcom  ————
 #DESCRIPTION ————  M-Three  satcom  ————
-#SERVICE 1:64:5B:0:0:0:0:0:0:0::————  M-Three satcom  ————
+#SERVICE 1:64:5A:0:0:0:0:0:0:0::————  M-Three satcom  ————
 #DESCRIPTION ————  M-Three satcom  ————
-#SERVICE 1:64:5C:0:0:0:0:0:0:0::————  Magyar Radio  ————
+#SERVICE 1:64:5B:0:0:0:0:0:0:0::————  Magyar Radio  ————
 #DESCRIPTION ————  Magyar Radio  ————
-#SERVICE 1:64:5D:0:0:0:0:0:0:0::————  MEDIA BROADCAST  ————
+#SERVICE 1:64:5C:0:0:0:0:0:0:0::————  MEDIA BROADCAST  ————
 #DESCRIPTION ————  MEDIA BROADCAST  ————
-#SERVICE 1:64:5E:0:0:0:0:0:0:0::————  Mediaset  ————
+#SERVICE 1:64:5D:0:0:0:0:0:0:0::————  Mediaset  ————
 #DESCRIPTION ————  Mediaset  ————
-#SERVICE 1:64:5F:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:5E:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:60:0:0:0:0:0:0:0::————  NTH  ————
+#SERVICE 1:64:5F:0:0:0:0:0:0:0::————  NTH  ————
 #DESCRIPTION ————  NTH  ————
-#SERVICE 1:64:61:0:0:0:0:0:0:0::————  OIV Zagreb  ————
+#SERVICE 1:64:60:0:0:0:0:0:0:0::————  OIV Zagreb  ————
 #DESCRIPTION ————  OIV Zagreb  ————
-#SERVICE 1:64:62:0:0:0:0:0:0:0::————  OTE  ————
+#SERVICE 1:64:61:0:0:0:0:0:0:0::————  OTE  ————
 #DESCRIPTION ————  OTE  ————
-#SERVICE 1:64:63:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:62:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:64:0:0:0:0:0:0:0::————  PRVDR  ————
+#SERVICE 1:64:63:0:0:0:0:0:0:0::————  PRVDR  ————
 #DESCRIPTION ————  PRVDR  ————
-#SERVICE 1:64:65:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:64:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:66:0:0:0:0:0:0:0::————  Radio Rumantsch  ————
+#SERVICE 1:64:65:0:0:0:0:0:0:0::————  Radio Rumantsch  ————
 #DESCRIPTION ————  Radio Rumantsch  ————
-#SERVICE 1:64:67:0:0:0:0:0:0:0::————  Radio Suisse Romande  ————
+#SERVICE 1:64:66:0:0:0:0:0:0:0::————  Radio Suisse Romande  ————
 #DESCRIPTION ————  Radio Suisse Romande  ————
-#SERVICE 1:64:68:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:67:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:69:0:0:0:0:0:0:0::————  RAI  ————
+#SERVICE 1:64:68:0:0:0:0:0:0:0::————  RAI  ————
 #DESCRIPTION ————  RAI  ————
-#SERVICE 1:64:6A:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:69:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:6B:0:0:0:0:0:0:0::————  RRSat  ————
+#SERVICE 1:64:6A:0:0:0:0:0:0:0::————  RRSat  ————
 #DESCRIPTION ————  RRSat  ————
-#SERVICE 1:64:6C:0:0:0:0:0:0:0::————  RTV Slovenija  ————
+#SERVICE 1:64:6B:0:0:0:0:0:0:0::————  RTV Slovenija  ————
 #DESCRIPTION ————  RTV Slovenija  ————
-#SERVICE 1:64:6D:0:0:0:0:0:0:0::————  RTVS  ————
+#SERVICE 1:64:6C:0:0:0:0:0:0:0::————  RTVS  ————
 #DESCRIPTION ————  RTVS  ————
-#SERVICE 1:64:6E:0:0:0:0:0:0:0::————  SamaCom  ————
+#SERVICE 1:64:6D:0:0:0:0:0:0:0::————  SamaCom  ————
 #DESCRIPTION ————  SamaCom  ————
-#SERVICE 1:64:6F:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:6E:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:70:0:0:0:0:0:0:0::————  Schweizer Radio DRS  ————
+#SERVICE 1:64:6F:0:0:0:0:0:0:0::————  Schweizer Radio DRS  ————
 #DESCRIPTION ————  Schweizer Radio DRS  ————
-#SERVICE 1:64:71:0:0:0:0:0:0:0::————  Sky Italia  ————
+#SERVICE 1:64:70:0:0:0:0:0:0:0::————  Sky Italia  ————
 #DESCRIPTION ————  Sky Italia  ————
-#SERVICE 1:64:72:0:0:0:0:0:0:0::————  SkyGate  ————
+#SERVICE 1:64:71:0:0:0:0:0:0:0::————  SkyGate  ————
 #DESCRIPTION ————  SkyGate  ————
-#SERVICE 1:64:73:0:0:0:0:0:0:0::————  SSR/SRG  ————
+#SERVICE 1:64:72:0:0:0:0:0:0:0::————  SSR/SRG  ————
 #DESCRIPTION ————  SSR/SRG  ————
-#SERVICE 1:64:74:0:0:0:0:0:0:0::————  Swiss Satellite Radio  ————
+#SERVICE 1:64:73:0:0:0:0:0:0:0::————  Swiss Satellite Radio  ————
 #DESCRIPTION ————  Swiss Satellite Radio  ————
-#SERVICE 1:64:75:0:0:0:0:0:0:0::————  T-Systems/MTI  ————
+#SERVICE 1:64:74:0:0:0:0:0:0:0::————  T-Systems/MTI  ————
 #DESCRIPTION ————  T-Systems/MTI  ————
-#SERVICE 1:64:76:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:75:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:77:0:0:0:0:0:0:0::————  TandbergTV  ————
+#SERVICE 1:64:76:0:0:0:0:0:0:0::————  TandbergTV  ————
 #DESCRIPTION ————  TandbergTV  ————
-#SERVICE 1:64:78:0:0:0:0:0:0:0::————  TDA  ————
+#SERVICE 1:64:77:0:0:0:0:0:0:0::————  TDA  ————
 #DESCRIPTION ————  TDA  ————
-#SERVICE 1:64:79:0:0:0:0:0:0:0::————  Telespazio  ————
+#SERVICE 1:64:78:0:0:0:0:0:0:0::————  Telespazio  ————
 #DESCRIPTION ————  Telespazio  ————
-#SERVICE 1:64:7A:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:79:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:7B:0:0:0:0:0:0:0::————  BSS_LDK  ————
+#SERVICE 1:64:7A:0:0:0:0:0:0:0::————  BSS_LDK  ————
 #DESCRIPTION ————  BSS_LDK  ————
-#SERVICE 1:64:7C:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:7B:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:7D:0:0:0:0:0:0:0::————  N  ————
+#SERVICE 1:64:7C:0:0:0:0:0:0:0::————  N  ————
 #DESCRIPTION ————  N  ————
-#SERVICE 1:64:7E:0:0:0:0:0:0:0::————  TVN Grupa ITI  ————
+#SERVICE 1:64:7D:0:0:0:0:0:0:0::————  TVN Grupa ITI  ————
 #DESCRIPTION ————  TVN Grupa ITI  ————
-#SERVICE 1:64:7F:0:0:0:0:0:0:0::————  Nova  ————
+#SERVICE 1:64:7E:0:0:0:0:0:0:0::————  Nova  ————
 #DESCRIPTION ————  Nova  ————
+#SERVICE 1:64:7F:0:0:0:0:0:0:0::————  Cyfra +  ————
+#DESCRIPTION ————  Cyfra +  ————
 #SERVICE 1:64:80:0:0:0:0:0:0:0::————  Cyfra +  ————
 #DESCRIPTION ————  Cyfra +  ————
-#SERVICE 1:64:81:0:0:0:0:0:0:0::————  Cyfra +  ————
-#DESCRIPTION ————  Cyfra +  ————
-#SERVICE 1:64:82:0:0:0:0:0:0:0::————  Cyfrowy Polsat  ————
+#SERVICE 1:64:81:0:0:0:0:0:0:0::————  Cyfrowy Polsat  ————
 #DESCRIPTION ————  Cyfrowy Polsat  ————
-#SERVICE 1:64:83:0:0:0:0:0:0:0::————  GLOBECAST  ————
+#SERVICE 1:64:82:0:0:0:0:0:0:0::————  GLOBECAST  ————
 #DESCRIPTION ————  GLOBECAST  ————
-#SERVICE 1:64:84:0:0:0:0:0:0:0::————  Arabesque  ————
+#SERVICE 1:64:83:0:0:0:0:0:0:0::————  Arabesque  ————
 #DESCRIPTION ————  Arabesque  ————
-#SERVICE 1:64:85:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:84:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
-#SERVICE 1:64:86:0:0:0:0:0:0:0::————    ————
+#SERVICE 1:64:85:0:0:0:0:0:0:0::————    ————
 #DESCRIPTION ————    ————
