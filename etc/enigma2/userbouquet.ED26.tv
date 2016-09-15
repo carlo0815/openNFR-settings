@@ -1,5 +1,5 @@
 #NAME Radio-Sender
-#SERVICE 1:64:19:0:0:0:0:0:0:0::???< Radio >???
+#SERVICE 1:64:17:0:0:0:0:0:0:0::???< Radio >???
 #DESCRIPTION ???< Radio >???
 #SERVICE 1:0:2:13D0:455:35:C00000:0:0:0:
 #SERVICE 1:0:2:FC3:451:35:C00000:0:0:0:
