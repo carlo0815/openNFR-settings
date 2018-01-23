@@ -3,6 +3,7 @@
 #SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ED01.tv" ORDER BY bouquet
 #SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ED02.tv" ORDER BY bouquet
 #SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ED00.tv" ORDER BY bouquet
+#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe01.tv" ORDER BY bouquet
 #SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ED04.tv" ORDER BY bouquet
 #SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.dbe00.tv" ORDER BY bouquet
 #SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.ED05.tv" ORDER BY bouquet

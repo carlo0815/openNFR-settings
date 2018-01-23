@@ -66,6 +66,7 @@
 
     Please report missing frequencies and pointers to regional standards to
 	https://github.com/oe-alliance/oe-alliance-tuxbox-common/blob/master/src/terrestrial.xml
+	https://github.com/OpenPLi/OpenPLi-1/tree/master/cdk/cdk/root/share/tuxbox
 -->
 
 <locations>
@@ -608,6 +609,15 @@
 		<transponder centre_frequency="826000000" bandwidth="0" />
 		<transponder centre_frequency="834000000" bandwidth="0" />
 	</terrestrial>
+	<terrestrial name="Leipzig (Europe DVB-T2)" flags="5" countrycode="DEU">
+		<transponder centre_frequency="498000000" bandwidth="0" />
+		<transponder centre_frequency="514000000" bandwidth="0" />
+		<transponder centre_frequency="530000000" bandwidth="0" />
+		<transponder centre_frequency="554000000" bandwidth="0" />
+		<transponder centre_frequency="586000000" bandwidth="0" />
+		<transponder centre_frequency="650000000" bandwidth="0" />
+		<transponder centre_frequency="698000000" bandwidth="0" />
+	</terrestrial>
 	<terrestrial name="Muenchen/Suedbayern (Europe DVB-T/T2)" flags="5" countrycode="DEU">
 		<transponder centre_frequency="514000000" bandwidth="0" />
 		<transponder centre_frequency="578000000" bandwidth="0" />
@@ -624,17 +634,26 @@
 		<transponder centre_frequency="834000000" bandwidth="0" />
 	</terrestrial>
 	<terrestrial name="Rhein-Main (Europe DVB-T/T2)" flags="5" countrycode="DEU">
-		<transponder centre_frequency="474000000" bandwidth="0" />
 		<transponder centre_frequency="482000000" bandwidth="0" />
 		<transponder centre_frequency="578000000" bandwidth="0" />
+		<transponder centre_frequency="602000000" bandwidth="0" />
+		<transponder centre_frequency="618000000" bandwidth="0" />
 		<transponder centre_frequency="738000000" bandwidth="0" />
-		<transponder centre_frequency="762000000" bandwidth="0" />
-		<transponder centre_frequency="818000000" bandwidth="0" />
+		<transponder centre_frequency="778000000" bandwidth="0" />
 	</terrestrial>
 	<terrestrial name="Heidelberg/BadenBaden/Donnersberg/Pforzheim (Europe DVB-T/T2)" flags="5" countrycode="DEU">
 		<transponder centre_frequency="474000000" bandwidth="0" />
 		<transponder centre_frequency="698000000" bandwidth="0" />
 		<transponder centre_frequency="786000000" bandwidth="0" />
+	</terrestrial>
+	<terrestrial name="Stuttgart-Frauenkopf (Europe DVB-T/T2)" flags="5" countrycode="DEU">
+		<transponder centre_frequency="474000000" bandwidth="0" />
+		<transponder centre_frequency="498000000" bandwidth="0" />
+		<transponder centre_frequency="522000000" bandwidth="0" />
+		<transponder centre_frequency="586000000" bandwidth="0" />
+		<transponder centre_frequency="666000000" bandwidth="0" />
+		<transponder centre_frequency="674000000" bandwidth="0" />
+		<transponder centre_frequency="698000000" bandwidth="0" />
 	</terrestrial>
 	<terrestrial name="Copenhagen (Europe DVB-T/T2)" flags="5" countrycode="DNK">
 		<transponder centre_frequency="213000000" bandwidth="0" constellation="2" code_rate_hp="1" code_rate_lp="6" guard_interval="2" transmission_mode="1" hierarchy_information="0" inversion="2" />
@@ -1106,6 +1125,95 @@
 		<transponder centre_frequency="738000000" bandwidth="0" constellation="3" /><!-- Ch 54 -->
 		<transponder centre_frequency="746000000" bandwidth="0" constellation="3" /><!-- Ch 55 -->
 	</terrestrial>
+	<terrestrial name="Latvia - Kuldīga, Ventspils, Dundaga bezmaksas (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="546000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Kuldīga, Ventspils (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="506000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="546000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="586000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="626000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="682000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="722000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Liepāja, Embūte, Ēvarži, Lielauce bezmaksas (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="474000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Liepāja (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="474000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="514000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="570000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="586000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="794000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="802000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Rīga bezmaksas (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="530000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Rīga (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="530000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="554000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="650000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="666000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="690000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="778000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="834000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Valmiera, Limbaži bezmaksas (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="474000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Valmiera (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="474000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="570000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="706000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="714000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="738000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="826000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Cesvaine, Alūksne, Māle bezmaksas (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="634000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Cesvaine, Alūksne (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="482000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="498000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="546000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="634000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="770000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="858000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Viesīte bezmaksas (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="610000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Viesīte (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="490000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="514000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="610000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="674000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="730000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="786000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Daugavpils bezmaksas (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="682000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Daugavpils (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="522000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="618000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="626000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="682000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="714000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="818000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Rēzekne, Dagda bezmaksas (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="658000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
+	<terrestrial name="Latvia - Rēzekne (Europe DVB-T)" flags="0" countrycode="LVA">
+		<transponder centre_frequency="522000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="602000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="618000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="658000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="706000000" bandwidth="0" constellation="3" system="0"/>
+		<transponder centre_frequency="802000000" bandwidth="0" constellation="3" system="0"/>
+	</terrestrial>
 	<terrestrial name="Estonia - Tallinn/Teletorn (Europe DVB-T/T2)" flags="0" countrycode="EST">
 		<transponder centre_frequency="506000000" bandwidth="0" constellation="3"/>
 		<transponder centre_frequency="530000000" bandwidth="0" constellation="3"/>
@@ -1115,12 +1223,12 @@
 		<transponder centre_frequency="666000000" bandwidth="0" constellation="3"/>
 	</terrestrial>
 	<terrestrial name="Estonia - Valgjärve (Europe DVB-T/T2)" flags="0" countrycode="EST">
-		<transponder centre_frequency="490000000" bandwidth="0" constellation="3"/> 		
+		<transponder centre_frequency="490000000" bandwidth="0" constellation="3"/>
 		<transponder centre_frequency="586000000" bandwidth="0" constellation="3" system="1"/>
 		<transponder centre_frequency="626000000" bandwidth="0" constellation="3"/>
-		<transponder centre_frequency="682000000" bandwidth="0" constellation="3"/>		
+		<transponder centre_frequency="682000000" bandwidth="0" constellation="3"/>
 		<transponder centre_frequency="722000000" bandwidth="0" constellation="3"/>
-		<transponder centre_frequency="746000000" bandwidth="0" constellation="3"/>	
+		<transponder centre_frequency="746000000" bandwidth="0" constellation="3"/>
 	</terrestrial>
 	<terrestrial name="Estonia - Koeru (Europe DVB-T/T2)" flags="0" countrycode="EST">
 		<transponder centre_frequency="522000000" bandwidth="0" constellation="3"/>
@@ -1274,7 +1382,7 @@
 		<transponder centre_frequency="858166000" bandwidth="0" constellation="3" />
 	</terrestrial>
 	<terrestrial name="United Kingdom, all regions (Europe DVB-T/T2)" flags="5" countrycode="GBR">
-		<transponder centre_frequency="474000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 21 plus -->
+		<transponder centre_frequency="474000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 21 -->
 		<transponder centre_frequency="482000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 22 -->
 		<transponder centre_frequency="490000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 23 -->
 		<transponder centre_frequency="498000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 24 -->
@@ -1290,7 +1398,7 @@
 		<transponder centre_frequency="578000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 34 -->
 		<transponder centre_frequency="586000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 35 -->
 		<transponder centre_frequency="602000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 37 -->
-		<transponder centre_frequency="618000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 39 plus -->
+		<transponder centre_frequency="618000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 39 -->
 		<transponder centre_frequency="626000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 40 -->
 		<transponder centre_frequency="634000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 41 -->
 		<transponder centre_frequency="642000000" bandwidth="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 42 -->
@@ -1346,6 +1454,17 @@
 		<transponder centre_frequency="546000000" bandwidth="0" system="1" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 30 (HD) -->
 		<transponder centre_frequency="562000000" bandwidth="0" system="1" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 32 (HD) -->
 		<transponder centre_frequency="586000000" bandwidth="0" system="1" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 35 (HD) -->
+	</terrestrial>
+	<terrestrial name="Craigkelly, Fife (Europe DVB-T/T2)" flags="5" countrycode="GBR">
+		<transponder centre_frequency="474000000" bandwidth="0" system="1" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 21 (HD) -->
+		<transponder centre_frequency="498000000" bandwidth="0" system="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 24 -->
+		<transponder centre_frequency="522000000" bandwidth="0" system="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 27 -->
+		<transponder centre_frequency="546000000" bandwidth="0" system="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 30 -->
+		<transponder centre_frequency="570000000" bandwidth="0" system="1" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 33 (HD) -->
+		<transponder centre_frequency="578000000" bandwidth="0" system="1" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 34 (HD) -->
+		<transponder centre_frequency="618000000" bandwidth="0" system="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 39 -->
+		<transponder centre_frequency="642000000" bandwidth="0" system="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 42 -->
+		<transponder centre_frequency="666000000" bandwidth="0" system="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 45 -->
 	</terrestrial>
 	<terrestrial name="Crystal Palace, London (Europe DVB-T/T2)" flags="5" countrycode="GBR">
 		<transponder centre_frequency="482000000" bandwidth="0" system="0" constellation="3" guard_interval="4" transmission_mode="2" hierarchy_information="4" inversion="2" /><!-- Ch 22 -->
