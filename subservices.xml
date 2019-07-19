@@ -47,6 +47,18 @@
 			<ref>1:0:19:102:E:85:C00000:0:0:0:</ref>
 		</channel>
 		<channel>
+			<name>Sky Sport HD 12</name>
+			<ref>1:0:19:17:D:85:C00000:0:0:0:</ref>
+		</channel>
+		<channel>
+			<name>Sky Sport HD 13</name>
+			<ref>1:0:19:182:3:85:C00000:0:0:0:</ref>
+		</channel>
+		<channel>
+			<name>Sky Sport HD 14</name>
+			<ref>1:0:19:187:B:85:C00000:0:0:0:</ref>
+		</channel>
+		<channel>
 			<name>Sky Sport News HD</name>
 			<ref>1:0:19:6C:C:85:C00000:0:0:0:</ref>
 		</channel>
