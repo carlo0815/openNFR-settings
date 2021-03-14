@@ -931,7 +931,7 @@ eeee0000:0005:22f4
 	s 11758500:27500000:0:9:192:2:0:1:1:0:2
 /
 00c00000:0003:0085
-	s 11719500:27500000:0:9:192:2:0:1:1:0:2
+	s 11719000:27500000:0:9:192:2:0:1:1:0:2
 /
 00c00000:0004:0085
 	s 12031000:27500000:0:9:192:2:0:1:1:0:2
@@ -945,11 +945,14 @@ eeee0000:0005:22f4
 00c00000:0007:0085
 	s 12148500:27500000:0:3:192:2:0
 /
+00c00000:0008:0085
+	s 12070000:27500000:0:9:192:2:0:1:1:0:2
+/
 00c00000:0009:0085
 	s 11170750:22000000:0:3:192:2:0:1:2:0:2
 /
 00c00000:000b:0085
-	s 12382500:27500000:0:9:192:2:0:1:1:0:2
+	s 12382000:27500000:0:3:192:2:0:1:2:0:2
 /
 00c00000:000c:0085
 	s 12304500:27500000:0:9:192:2:0:1:1:0:2
@@ -961,7 +964,7 @@ eeee0000:0005:22f4
 	s 10920750:22000000:0:5:192:2:0
 /
 00c00000:0010:0085
-	s 11797500:27500000:0:9:192:2:0:1:1:0:2
+	s 11798000:27500000:0:9:192:2:0:1:1:0:2
 /
 00c00000:0021:0085
 	s 12480000:27500000:1:3:192:2:0
@@ -22338,11 +22341,11 @@ p:M7 Group
 Kaufbei.tv
 p:SES
 0008:00c00000:0003:0085:22:0
-Sky Cinema In Love
+Sky Cinema Fun
 p:SKY,c:0003ff,c:010400,c:0303ff,c:050001,C:0000
 0009:00c00000:0003:0085:22:0
 Sky Cinema Action
-p:SKY,C:0000
+p:SKY,c:0002ff,c:010300,c:0302ff,c:050001,C:0000
 0509:0030300f:0000:0001:22:0
 Coral Live Betting
 p:Arqiva
@@ -22469,6 +22472,9 @@ p:M7 Group
 0020:00a00000:0002:0040:22:0
 Reality TV
 p:T-HT
+0320:00c00000:0008:0085:22:0
+STEST1
+p:SKY,C:0000,f:40
 0320:00c00000:000c:0085:22:0
 STEST1
 p:SKY,C:0000
@@ -23317,7 +23323,7 @@ Viasat Xtra PL1
 p:
 00dd:00c00000:0004:0085:22:0
 Sky Sport 1
-p:SKY,C:0000
+p:SKY,c:0006ff,c:010700,c:020020,c:0306ff,c:050001,C:0000
 32dd:00c00000:045d:0001:22:0
 n-tv Austria
 p:RTL
@@ -23578,7 +23584,7 @@ p:CSAT,C:0000
 p:SKY,c:0004ff,c:0304ff,c:040503,c:050001,C:0000
 010b:00c00000:0006:0085:25:0
 Sky Sport Bundesliga 2 HD
-p:SKY,c:0007ff,c:020020,c:0307ff,c:040802,c:050001,C:09c4,C:098d,C:098c
+p:SKY,c:0007ff,c:020020,c:0307ff,c:040802,c:050001,C:0000
 040b:0e080000:0044:0046:25:0
 TV 2 Sport Premium 2 HD
 p:Telenor
@@ -23672,6 +23678,9 @@ p:SkyItalia
 ef10:00c00000:0421:0001:25:0
 RTL HD
 p:CBC,c:0000ff,c:020020,c:0300ff,c:040103,c:050001,C:0000
+0011:00c00000:0003:0085:25:0
+Sky Sport F1 HD
+p:,c:0006ff,c:020020,c:0306ff,c:040702,c:050001,C:0000
 0411:0e080000:0046:0046:25:0
 NRK Super / NRK3 HD
 p:Telenor
@@ -24443,6 +24452,9 @@ p:SkyItalia
 0147:00c00000:0006:0085:25:0
 Sky Sport Bundesliga 8 HD
 p:SKY,C:0000
+0147:00c00000:0008:0085:25:0
+Sky Sport Bundesliga 8 HD
+p:SKY,f:40
 0447:0e080000:0018:0046:25:0
 Nat Geo HD (N)
 p:Telenor
@@ -24464,6 +24476,9 @@ p:CSAT
 0148:00c00000:0006:0085:25:0
 Sky Sport 9 HD
 p:SKY,C:0000
+0148:00c00000:0008:0085:25:0
+Sky Sport 9 HD
+p:SKY,f:40
 0448:0e080000:0018:0046:25:0
 Nat Geo HD (D)
 p:Telenor
@@ -24482,6 +24497,9 @@ p:CSAT
 0149:00c00000:0006:0085:25:0
 Sky Sport Austria 2 HD
 p:SKY,C:0000
+0149:00c00000:0008:0085:25:0
+Sky Sport Austria 2 HD
+p:SKY,f:40
 0449:0e080000:0018:0046:25:0
 Nat Geo HD (S/F)
 p:Telenor
@@ -24503,6 +24521,9 @@ p:CSAT
 014a:00c00000:0006:0085:25:0
 Eurosport360HD 7
 p:SKY,c:0014ff,c:0314ff,c:041503,c:050001,C:0000
+014a:00c00000:0008:0085:25:0
+Eurosport360HD 7
+p:SKY,f:40
 064a:00300000:001b:0056:25:0
 SVT 1 HD
 p:
@@ -25144,7 +25165,7 @@ SVT2 HD - Textremsa hörseltolkning
 p:Telenor
 5273:00c00000:041d:0001:25:0
 Comedy Central HD
-p:MTV Networks,c:0001ff,c:0301ff,c:040203,c:050001,C:4b64,C:4af4,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830,C:09c4,C:098d,C:098c,C:0648
+p:MTV Networks,c:0001ff,c:0301ff,c:040203,c:050001,C:186d,C:186a,C:1860,C:1843,C:1842,C:1830
 0074:00c00000:0009:0085:25:0
 Sky Cinema Action HD
 p:SKY,c:0002ff,c:0302ff,c:040303,c:050001,C:0000
@@ -25408,7 +25429,7 @@ TREK
 p:AB SAT,C:0500,C:0100
 6f81:00c00000:0457:0001:25:0
 alt_WDR HD Wuppertal
-p:ARD
+p:ARD,c:0015e1,c:0115e2,c:0215e4,c:0315e1,c:050001
 0082:00c00000:0006:0085:25:0
 Discovery HD
 p:SKY,c:0003ff,c:0303ff,c:040403,c:050001,C:0000
@@ -25453,10 +25474,10 @@ GULLI
 p:CSAT
 6f83:00c00000:0457:0001:25:0
 alt_WDR HD Duisburg
-p:ARD
+p:ARD,c:0015e1,c:0115e2,c:0215e4,c:0315e1,c:050001
 0084:00c00000:0009:0085:25:0
 DAZN 1 Bar HD
-p:SKY,c:0006ff,c:0306ff,c:040703,c:050001,C:0000
+p:SKY,c:0006ff,c:0306ff,c:040703,c:050001,C:09c4,C:098d,C:098c
 0584:0e080000:000e:0046:25:0
 C More Series HD
 p:Telenor
@@ -25749,8 +25770,8 @@ p:SkyItalia
 RTL II HD Austria
 p:CBC,C:0000
 6ea5:00c00000:04b1:0001:25:0
-WDR HD Köln
-p:ARD
+alt_WDR HD Köln
+p:ARD,c:00157d,c:01157e,c:021580,c:03157d,c:050001
 1ba6:0e080000:0044:0046:25:0
 TV 2 Sportskanalen HD
 p:Telenor
@@ -25758,8 +25779,8 @@ p:Telenor
 Fox HD
 p:SkyItalia
 6ea6:00c00000:04b1:0001:25:0
-WDR HD Bielefeld
-p:ARD
+alt_WDR HD Bielefeld
+p:ARD,c:00157d,c:01157e,c:021580,c:03157d,c:050001
 13a7:00c00000:03ea:0001:25:0
 Al Jazeera English HD
 p:Al Jazeera
@@ -25767,8 +25788,8 @@ p:Al Jazeera
 Sky 3D
 p:SkyItalia
 6ea7:00c00000:04b1:0001:25:0
-WDR HD Dortmund
-p:ARD
+alt_WDR HD Dortmund
+p:ARD,c:00157d,c:01157e,c:021580,c:03157d,c:050001
 10a8:00820000:2198:fbff:25:0
 Roma TV
 p:SkyItalia
@@ -25785,8 +25806,8 @@ p:ORS
 Sky 3D
 p:SkyItalia
 6ea8:00c00000:04b1:0001:25:0
-WDR HD Düsseldorf
-p:ARD
+alt_WDR HD Düsseldorf
+p:ARD,c:00157d,c:01157e,c:021580,c:03157d,c:050001
 16a9:00c00000:03ff:0001:25:0
 münchen.tv HD
 p:BMT
@@ -25803,8 +25824,8 @@ p:SkyItalia
 CI Crime+Inv.HD
 p:SkyItalia
 6ea9:00c00000:04b1:0001:25:0
-WDR HD Essen
-p:ARD
+alt_WDR HD Essen
+p:ARD,c:00157d,c:01157e,c:021580,c:03157d,c:050001
 05aa:0030ac29:0000:0000:25:0
 Kanal 5 HD
 p:,c:050001
@@ -25818,7 +25839,7 @@ p:BMT
 Primafila 20 HD
 p:SkyItalia
 6eaa:00c00000:04b1:0001:25:0
-WDR HD Münster
+alt_WDR HD Münster
 p:ARD
 16ab:00c00000:03ff:0001:25:0
 Ulm-Allgäu HD
@@ -25830,7 +25851,7 @@ p:-
 Sky 3D
 p:SkyItalia
 6eab:00c00000:04b1:0001:25:0
-WDR HD Siegen
+alt_WDR HD Siegen
 p:ARD
 16ac:00c00000:03ff:0001:25:0
 tv.ingolstadt HD
@@ -25843,7 +25864,7 @@ Sky 3D
 p:SkyItalia
 6eac:00c00000:03fd:0001:25:0
 WDR HD Köln
-p:ARD,f:40
+p:ARD,c:000065,c:010066,c:020068,c:030065,c:050001,f:40
 16ad:00c00000:03ff:0001:25:0
 Lokal-TV-Portal HD
 p:BMT
@@ -26002,7 +26023,7 @@ TV5 MONDE
 p:CSAT
 6eb6:00c00000:03fd:0001:25:0
 WDR HD Wuppertal
-p:ARD,f:40
+p:ARD,c:000065,c:010066,c:020068,c:030065,c:050001,f:40
 78b6:00c00000:03ec:0001:25:0
 M.Seriesmania HD
 p:Movistar+,C:0000
@@ -26911,7 +26932,7 @@ ZDFinfo HD
 p:ZDFmobil
 6ed2:00c00000:03fd:0001:31:0
 WDR Mediathek (Internet)
-p:ARD,f:40
+p:ARD,c:00014b,c:03014b,c:050001,f:40
 07d3:eeee0000:0203:2114:31:0
 zdf_neo HD
 p:ZDFmobil
@@ -28330,34 +28351,58 @@ INFO TECHNIQUE
 p:CSAT
 0106:00c00000:0003:0085:211:0
 Sky Sport Bundesliga 2
-p:
+p:,C:0000
 0107:00c00000:0003:0085:211:0
 Sky Sport 3
 p:,C:0000
 0110:00c00000:0002:0085:211:0
 Sky Sport Bundesliga 3
 p:
+0110:00c00000:0003:0085:211:0
+Sky Sport Bundesliga 3
+p:,C:0000
 0111:00c00000:0002:0085:211:0
+Sky Sport 4
+p:
+0111:00c00000:0003:0085:211:0
 Sky Sport 4
 p:
 011a:00c00000:0002:0085:211:0
 Sky Sport Bundesliga 4
 p:
+011a:00c00000:0003:0085:211:0
+Sky Sport Bundesliga 4
+p:
 011b:00c00000:0002:0085:211:0
+Sky Sport 5
+p:
+011b:00c00000:0003:0085:211:0
 Sky Sport 5
 p:
 0124:00c00000:0003:0085:211:0
 Sky Sport Bundesliga 5
 p:
+0124:00c00000:0008:0085:211:0
+Sky Sport Bundesliga 5
+p:,f:40
 0125:00c00000:0003:0085:211:0
 Sky Sport 6
 p:
+0125:00c00000:0008:0085:211:0
+Sky Sport 6
+p:,c:001dff,c:011e01,c:031dff,c:050001,C:09c4,C:098d,C:098c,f:40
 012e:00c00000:0003:0085:211:0
 Sky Sport Bundesliga 6
 p:
+012e:00c00000:0008:0085:211:0
+Sky Sport Bundesliga 6
+p:,f:40
 012f:00c00000:0003:0085:211:0
 Sky Sport 7
 p:
+012f:00c00000:0008:0085:211:0
+Sky Sport 7
+p:,f:40
 0138:00c00000:0003:0085:211:0
 Sky Sport Bundesliga 7
 p:
@@ -28367,21 +28412,39 @@ p:
 0142:00c00000:0003:0085:211:0
 Sky Sport Bundesliga 8
 p:
+0142:00c00000:0008:0085:211:0
+Sky Sport Bundesliga 8
+p:,f:40
 0143:00c00000:0003:0085:211:0
 Sky Sport 9
 p:
+0143:00c00000:0008:0085:211:0
+Sky Sport 9
+p:,f:40
 0145:00c00000:0003:0085:211:0
 Sky Sport Austria 2
 p:SKY
+0145:00c00000:0008:0085:211:0
+Sky Sport Austria 2
+p:SKY,f:40
 014c:00c00000:0002:0085:211:0
 Sky Sport Bundesliga 9
 p:
+014c:00c00000:0008:0085:211:0
+Sky Sport Bundesliga 9
+p:,f:40
 014d:00c00000:0002:0085:211:0
 Sky Sport 10
 p:
+014d:00c00000:0008:0085:211:0
+Sky Sport 10
+p:,f:40
 0150:00c00000:0002:0085:211:0
 Sky Sport Austria 3
 p:SKY
+0150:00c00000:0008:0085:211:0
+Sky Sport Austria 3
+p:SKY,f:40
 0159:00c00000:000b:0085:211:0
 Blue Movie 1
 p:,C:0000
@@ -28394,12 +28457,21 @@ p:,C:0000
 00fc:00c00000:0003:0085:211:0
 Sky Sport Bundesliga 10
 p:
+00fc:00c00000:0008:0085:211:0
+Sky Sport Bundesliga 10
+p:,f:40
 00fd:00c00000:0003:0085:211:0
 Sky Sport 11
 p:
+00fd:00c00000:0008:0085:211:0
+Sky Sport 11
+p:,f:40
 00ff:00c00000:0003:0085:211:0
 Sky Sport Austria 4
 p:SKY
+00ff:00c00000:0008:0085:211:0
+Sky Sport Austria 4
+p:SKY,f:40
 1c1e:00c00000:0451:0035:212:0
 EPG Nagraguide
 p:M7 Group
@@ -28458,4 +28530,4 @@ p:DVB-S QPSK 12285V 28.2°E,f:40
 12597V SID 0x37c8
 p:DVB-S QPSK 12597V 13.0°E,f:40
 end
-Edited with dreamboxEDIT 6.0.2.0 on 04Mrz2021 22:33:37
+Edited with dreamboxEDIT 6.0.2.0 on 14Mrz2021 22:36:27
